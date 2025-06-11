@@ -1,0 +1,12 @@
+{
+  "room": "Kitchen/Dining",
+  "dimensions_m": [2.95, 5.65],
+  "floor": [[0, 0], [2.95, 0], [2.95, 5.65], [0, 5.65]],
+  "walls": [
+    {"name": "left_wall", "start": [0, 0], "end": [0, 5.65], "thickness": 0.01},
+    {"name": "top_wall", "start": [0, 5.65], "end": [2.95, 5.65], "thickness": 0.01},
+    {"name": "right_wall", "start": [2.95, 5.65], "end": [2.95, 0], "thickness": 0.01},
+    {"name": "bottom_wall", "start": [2.95, 0], "end": [0, 0], "thickness": 0.01}
+  ],
+  "ceiling": {"height": 2.8}
+}
