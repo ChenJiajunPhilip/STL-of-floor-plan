@@ -1,0 +1,12 @@
+{
+  "room": "Store",
+  "dimensions_m": [1.2, 1.2],
+  "floor": [[0, 0], [1.2, 0], [1.2, 1.2], [0, 1.2]],
+  "walls": [
+    {"name": "left_wall", "start": [0, 0], "end": [0, 1.2], "thickness": 0.01},
+    {"name": "top_wall", "start": [0, 1.2], "end": [1.2, 1.2], "thickness": 0.01},
+    {"name": "right_wall", "start": [1.2, 1.2], "end": [1.2, 0], "thickness": 0.01},
+    {"name": "bottom_wall", "start": [1.2, 0], "end": [0, 0], "thickness": 0.01}
+  ],
+  "ceiling": {"height": 2.8}
+}
